@@ -1,0 +1,8 @@
+torch
+requests
+pillow
+matplotlib
+transformers
+torchvision
+
+Add `--extra-index-url https://download.pytorch.org/whl/cu118` if CUDA is required.
