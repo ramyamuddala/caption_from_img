@@ -20,6 +20,19 @@ The output? A natural-sounding caption that describes what’s in the image.
 - Transformers from HuggingFace
 
 ---
+## 💡 Notes
+
+- It’s a simple script, easy to extend.
+- You can later make it interactive via a web app (e.g. Streamlit or Gradio).
+- Want to add support for local images? Replace the image download part with `Image.open('your_image.jpg')`.
+
+## 🧪 What's Next?
+
+- Add batch captioning support
+- Handle local files and drag-drop UI
+- Add option to save results to file
+- Deploy it on HuggingFace Spaces or Streamlit Cloud
+
 
 ## ⚙️ How to Run It
 
@@ -27,3 +40,7 @@ The output? A natural-sounding caption that describes what’s in the image.
 ```bash
 git clone https://github.com/YOUR_USERNAME/image-caption-generator.git
 cd image-caption-generator
+
+
+
+
